@@ -1,2 +1,2 @@
-# codewars
-learning records of codewars
+# leetCode
+learning records of leetCode
