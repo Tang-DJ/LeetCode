@@ -7,9 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="518eb5ea-2df1-41e6-883b-b671810fedc7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TwoSum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AddTwoNumbers.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,14 +89,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoSum.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TwoSum.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TwoSum.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="418">
+              <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddTwoNumbers.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/AddTwoNumbers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -134,6 +142,7 @@
         <option value="$PROJECT_DIR$/src/ReverseWords.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/TwoSum.js" />
+        <option value="$PROJECT_DIR$/src/AddTwoNumbers.js" />
       </list>
     </option>
   </component>
@@ -184,8 +193,9 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="411" />
     <option name="y" value="23" />
-    <option name="width" value="1680" />
+    <option name="width" value="1730" />
     <option name="height" value="948" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -243,7 +253,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.TwoSum.js">
+  <component name="RunManager" selected="Node.js.AddTwoNumbers.js">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -266,6 +276,7 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="AddTwoNumbers.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="AddTwoNumbers.js" working-dir="$PROJECT_DIR$/src" />
     <configuration name="TwoSum.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="TwoSum.js" working-dir="$PROJECT_DIR$/src" />
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -327,9 +338,11 @@
     <list>
       <item itemvalue="Tomcat Server.Tomcat 8.5.4" />
       <item itemvalue="Node.js.TwoSum.js" />
+      <item itemvalue="Node.js.AddTwoNumbers.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.AddTwoNumbers.js" />
         <item itemvalue="Node.js.TwoSum.js" />
       </list>
     </recent_temporary>
@@ -351,42 +364,42 @@
       <workItem from="1515476841409" duration="3787000" />
       <workItem from="1515544978035" duration="592000" />
       <workItem from="1515599502940" duration="1546000" />
-      <workItem from="1533986530177" duration="1224000" />
+      <workItem from="1533986530177" duration="15064000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15017000" />
+    <option name="totallyTimeSpent" value="28857000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="948" extended-state="6" />
+    <frame x="411" y="23" width="1730" height="948" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="bottom" id="Java Enterprise" order="7" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Application Servers" order="7" weight="0.3243243" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32902467" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2728938" />
-      <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39952996" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32902467" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.2728938" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -403,7 +416,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -748,11 +761,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TwoSum.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+        <state relative-caret-position="418">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AddTwoNumbers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
         </state>
       </provider>
     </entry>
