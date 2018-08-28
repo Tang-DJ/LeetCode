@@ -15,7 +15,7 @@
 // Note:
 //     Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2^31,  2^31 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
 
-//判断大于2^31时没有判断结果大于的情况
+//结果也需要进行大小判断
 /**
  * @param {number} x
  * @return {number}
