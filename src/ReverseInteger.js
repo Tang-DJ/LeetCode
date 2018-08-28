@@ -39,3 +39,15 @@ var reverse = function(x) {
 };
 
 console.log(reverse(1534236469));
+
+var MAX_VALUE = 2147483647;
+var MIN_VALUE = -2147483648;
+
+var reverse1 = function(x) {
+    var res = 0;
+    while (x !== 0) {
+        res = res * 10 + (x % 10);
+        x = Math.trunc(x / 10);
+    }
+    return (res < MIN_VALUE || res > MAX_VALUE) ? 0 : res;
+};
