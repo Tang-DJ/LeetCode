@@ -20,53 +20,53 @@
 // Output: "0"
 // Explanation: Remove all the digits from the number and it is left with nothing which is 0.
 
+//使用栈的思路
+//如果n是num的长度，我们要去除k个，那么需要剩下n-k个数，定义一个result数组用于保存剩下的字符，与result中最后一个字符相比，比它小，
+//栈中最后一个字符出栈，该字符进栈，否则该字符直接进栈。值得注意的是在删除k个数之后，若剩下的数前面有0，应该去掉。
 /**
  * @param {string} num
  * @param {number} k
  * @return {string}
  */
-var removeKdigits = function(num, k) {
-    var list = num.split('');
-    if(num.length === k)
-        return '0';
-    if(num.length === k+1){
-        var min = list[0];
-        for(var l=0;l<num.length;l++){
-            min = list[l]<min?list[l]:min;
-        }
-        return min;
-    }
-
-    if(k===0)
+var removeKdigits = function(num, k){
+    //uncomplete
+    if(k==0)
         return num;
-    var del = 0;
-    var re='';
-    for(var i =0;i<list.length-1;i++){
-        if(list[i]>list[i+1]){
-            list[i] = -1;
-            del++;
-            if(del===k){
-                break;
-            }
-        }else if(list[i]<list[i+1]){
-            list[i+1] = -1;
-            del++;
-            if(del===k){
+    var min = num.split('');
+    var result =[];
+
+    for(var l=0;l<k;l++){
+        var index = 0;
+        var n = min.length;
+        for(var i = 0; i < n; i++) {
+            if((i == l -1) || min[i] > min[i + 1]) {
+                index = i;
                 break;
             }
         }
+        min.splice(index,1)
+        console.log(min);
+
     }
-    list.filter(function (value) {
-        if(!(re.length==0&&value==0))
-          if(value>=0)
-            re+=value;
-    });
-
-    if(del!==k)
-        re = re.slice(0,-k);
-    if(re.length==0)
-        re = 0;
-    return re.toString();
+    console.log(min);
 };
+console.log(removeKdigits("1432219",3));
 
-console.log(removeKdigits("10200",1));
+
+/**
+ * @param {string} num
+ * @param {number} k
+ * @return {string}
+ */
+// var removeKdigits = function(num, k) {
+//     let stack = [], numDigits = num.length;
+//     for (let i = 0; i < numDigits; i++) {
+//         while(k > 0 && stack.length && stack[stack.length - 1] > num[i]) {
+//             stack.pop();
+//             k--;
+//         }
+//         stack.push(num[i]);
+//     }
+//     stack = k > 0 ? stack.slice(0, -k) : stack;
+//     return stack.join('').replace(/^0+/, '') || '0';
+// };
